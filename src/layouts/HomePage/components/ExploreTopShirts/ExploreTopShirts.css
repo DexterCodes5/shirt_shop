@@ -1,0 +1,11 @@
+.explore-top-shirts {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../../../../Images/shirts-small.png");
+  height: 25em !important;
+}
+
+.explore-top-shirts-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

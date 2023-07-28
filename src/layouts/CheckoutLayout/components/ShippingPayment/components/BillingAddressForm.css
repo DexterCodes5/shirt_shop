@@ -1,0 +1,56 @@
+.billing-address_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address__book-heading {
+  margin: 0;
+}
+
+.address__book-empty {
+  color: grey;
+  width: fit-content;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.address__book-full {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+}
+
+.address__book-address {
+  border: 1px solid #dbe1e9;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.address__book-address-selected {
+  border: 2px solid var(--primary-color);
+  font-weight: 700;
+}
+
+.address__book-address-delete {
+  position: absolute;
+  right: 15px;
+  color: red;
+}
+
+.form__continue_btn-billing {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: orange;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}

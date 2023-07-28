@@ -1,0 +1,25 @@
+.carousel-shirt {
+  width: 25%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.carousel-shirt-img {
+  height: 233px;
+}
+
+.carousel-shirt-title {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.carousel-shirt-brand {
+  margin-top: 5px;
+  color: grey;
+  font-size: .85rem;
+  font-weight: 700;
+}
+
+.carousel-shirt-btn {
+  font-size: 1rem;
+}

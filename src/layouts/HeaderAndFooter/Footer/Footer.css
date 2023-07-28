@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--main-color);
+  padding: 3rem;
+}
+
+.footer-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-navbar {
+  display: flex;
+  gap: 10px;
+}

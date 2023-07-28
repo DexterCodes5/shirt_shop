@@ -1,0 +1,14 @@
+.question {
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.question > h3 {
+  margin: 0;
+}
+
+.question > div {
+  margin-top: 1rem;
+}

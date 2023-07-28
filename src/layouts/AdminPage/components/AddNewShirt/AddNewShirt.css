@@ -1,0 +1,78 @@
+.add-new-shirt-alert-success {
+  background-color: rgb(24, 142, 46);
+  color: white;
+  padding: 1rem;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.add-new-shirt-alert-danger {
+  background-color: rgb(218, 75, 75);
+  color: white;
+  padding: 1rem;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.add-new-shirt-top {
+  background-color: #f9fafb;
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem;
+}
+
+.add-new-shirt-middle {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.add-new-shirt-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.add-new-shirt-title-col {
+  box-sizing: border-box;
+  width: 50%;
+  padding-right: 20px;
+}
+
+.add-new-shirt-title {
+  margin-bottom: 5px;
+}
+
+.add-new-shirt-small-col {
+  box-sizing: border-box;
+  width: 25%;
+  padding-right: 20px;
+}
+
+.add-new-shirt-small-col:last-child {
+  padding-right: 0;
+}
+
+.add-new-shirt-description-row {
+  margin-top: 1rem;
+}
+
+.add-new-shirt-row2 {
+  margin-top: 1rem;
+  width: 25%;
+}
+
+@media (max-width: 768px) {
+  .add-new-shirt-title-col {
+    width: 100%;
+    padding: 0;
+  }
+
+  .add-new-shirt-small-col {
+    padding: 0;
+    width: 100%;
+  }
+
+  .add-new-shirt-row2 {
+    width: 100%;
+  }
+}

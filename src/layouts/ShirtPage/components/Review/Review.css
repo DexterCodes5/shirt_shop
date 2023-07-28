@@ -1,0 +1,10 @@
+.review-col {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.review > p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}

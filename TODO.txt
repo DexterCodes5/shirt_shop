@@ -1,0 +1,27 @@
+This will be a SHIRT SHOP
+
+I will make the whole app with React Router Links and Navlinks
+
+I can't insert images as base64 in mysql everything crashes.
+Store the images on the frontend and their directories in mysql, then use "require" to retrieve the images and adjust the path.
+Require does not work with with variables, it need a string literal.
+
+Two options either store the images as bytes in blobs or use store the images in react's public folder and store the directories in the database.
+
+I will store the images into DB using Spring APP.
+
+Just store the images via the Spring App.
+
+
+
+// Users
+
+Test User:
+email: test@mail.com
+password: test1234!
+
+Admin User:
+email: admin@mail.com
+password: admin1234!
+
+https://www.aboutyou.bg/checkout#/shipping

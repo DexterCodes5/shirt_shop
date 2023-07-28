@@ -1,0 +1,25 @@
+.error-page {
+  height: 100vh;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  background-image: url("../../Images/shirts.jpg");
+  background-size: cover;
+}
+
+.error-page-heading {
+  color: white;
+}
+
+.erro-page-info {
+  color: var(--light-grey);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.error-page-btns-container {
+  margin-top: 2%;
+}
+
+.error-page-btn {
+  margin-right: 1rem;
+}

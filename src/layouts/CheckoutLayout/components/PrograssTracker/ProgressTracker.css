@@ -1,0 +1,26 @@
+.progress-tracker {
+  display: flex;
+  gap: 1rem;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.progress-tracker-step {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgb(153, 153, 153);
+}
+
+.progress-tracker-chevron {
+  color: inherit;
+  height: 1rem;
+}
+
+.progress-tracker-link {
+  color: inherit;
+}
+
+.progress-tracker-selected {
+  color: black;
+}

@@ -1,0 +1,66 @@
+.clothing-shirt {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.clothing-shirt-img-container {
+  flex: 0 0 auto;
+  width: 18%;
+}
+
+.clothing-shirt-img {
+  height: 196px;
+}
+
+.clothing-shirt-info-container {
+  flex: 0 0 auto;
+  width: 60%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.clothing-shirt-brand {
+  color: var(--dark-grey);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.clothing-shirt-title {
+  margin-top: 5px;
+}
+
+.clothing-shirt-btn-container {
+  flex: 0 1 auto;
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .clothing-shirt-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .clothing-shirt-img-container {
+    width: 100%;
+  }
+
+  .clothing-shirt-info-container {
+    width: 100%;
+  }
+
+  .clothing-shirt-btn-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,81 @@
+.shirt-page-top {
+  margin-top: 3rem;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.shirt-page-img-container {
+  width: 16.6%;
+}
+
+.shirt-page-img {
+  width: 226px;
+}
+
+.shirt-page-info-container {
+  width: 30%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 3rem;
+}
+
+.shirt-page-brand {
+  color: var(--dark-grey);
+  margin-top: 0.5rem;
+}
+
+.shirt-page-card-container {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.shirt-page-card {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  padding: 2rem;
+}
+
+.shirt-page-price {
+  color: red;
+  font-weight: 700;
+}
+
+.shirt-page-delivery-info {
+  color: var(--dark-grey);
+  font-size: 0.75rem;
+}
+
+.shirt-page-p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.latest-reviews {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .shirt-page-top {
+    display: block;
+  }
+
+  .shirt-page-img-container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .shirt-page-info-container {
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .shirt-page-card-container {
+    width: auto;
+    margin-top: 3rem;
+  }
+}

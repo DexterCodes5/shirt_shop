@@ -1,0 +1,119 @@
+.checkout-header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.checkout-grid {
+  display: flex;
+}
+
+.checkout-left {
+  flex: 1;
+  padding: 48px;
+}
+
+.checkout-left-container {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.checkout-right {
+  box-sizing: border-box;
+  flex-basis: 40%;
+  background-color: #f9fafb;
+}
+
+.checkout-heading {
+  font-size: 20px;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.checkout__input {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #dbe1e9;
+  border-radius: 3px;
+  padding-top: 14.5px;
+  padding-bottom: 13px;
+  padding-left: 15px;
+  padding-right: 35px;
+  font-size: 14px;
+  outline: none;
+  max-height: 45.9px;
+}
+
+.checkout__input:focus {
+  border: 2px solid var(--primary-color);
+}
+
+.checkout__input::placeholder {
+  opacity: 0;
+}
+
+.checkout__input:focus + .checkout__label {
+  transform: translate(-6px, -12px) scale(0.75);
+}
+
+.checkout__input:not(:placeholder-shown) + .checkout__label {
+  transform: translate(-6px, -12px) scale(0.75);
+}
+
+.checkout__input-error {
+  border-color: #f16363;
+  background-image: url("../../Images/inputError.svg");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: right 10px center;
+}
+
+.checkout__input-success {
+  background-image: url("../../Images/inputSuccess.svg");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: right 10px center;
+}
+
+.checkout__input:focus + .checkout__label-long {
+  transform: translate(-23px, -12.5px) scale(0.75);
+}
+
+.checkout__input:not(:placeholder-shown) + .checkout__label-long {
+  transform: translate(-23px, -12px) scale(0.75);
+}
+
+.checkout__input-numeric::-webkit-outer-spin-button,
+.checkout__input-numeric::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.checkout__input-error-message {
+  color: #f16363;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 1px;
+}
+
+.checkout__input-numeric {
+  -moz-appearance: textfield;
+  appearance: textfield;
+} 
+
+.checkout__label {
+  color: #76889d;
+  cursor: text;
+  pointer-events: none;
+  font-size: 14px;
+  position: absolute;
+  top: 13px;
+  left: 14px;
+  transition: transform .4s linear;
+  will-change: transform;
+}
+
+@media (max-width: 768px) {
+  .checkout-right {
+    display: none;
+  }
+}
