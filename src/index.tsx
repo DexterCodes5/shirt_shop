@@ -7,7 +7,7 @@ import { Auth0ProviderWithNavigate } from './auth0/Auth0ProviderWithNavigate';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 
-const stripePromise = loadStripe("pk_test_51NQnymDcFpxD1Nc81M2dY3hwWJ8gf6okUkeiCwAbU7EAXaqktHbrQWtIqUv4l7bJ20lOizm7gB8YXwfZdWTV0jNu00rs9tQrpX");
+const stripePromise = loadStripe("YOUR_PUBLISHABLE_KEY");
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
